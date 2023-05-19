@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Full Screen Gallery</title>
+  <link rel="stylesheet" type="text/css" href="gallerystyle.css">
+  <script src="galleryapp.js"></script>
+</head>
+<body>
+  <div class="gallery">
+    <div class="fullscreen-container">
+      <img id="currentImage" src="/gallery_images/1.jpg">
+      <div class="arrow left-arrow" onclick="previousImage()">&lt;</div>
+      <div class="arrow right-arrow" onclick="nextImage()">&gt;</div>
+    </div>
+    <div class="thumbnails">
+      <img src="/gallery_images/1.jpg" onclick="showImage(0)">
+      <img src="/gallery_images/2.jpg" onclick="showImage(1)">
+      <img src="/gallery_images/3.jpg" onclick="showImage(2)">
+      <!-- Add more images as needed -->
+    </div>
+  </div>
+</body>
+</html>
